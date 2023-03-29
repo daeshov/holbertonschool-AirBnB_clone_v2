@@ -12,8 +12,7 @@ script starts Flask web app
             /states_list:         display HTML and state info from storage;
 """
 from models import storage
-from models import request
-from flask import Flask, render_template
+from flask import Flask, request, render_template
 app = Flask(__name__)
 
 
